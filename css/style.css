@@ -1,21 +1,24 @@
 body{
-	background-color:#FF5733 ;
+	background-color:#EAF6F6 ;
 }
 
 hr {
-    border: dotted;
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    color: black;
-    overflow: visible;
-    text-align: center;
-    height: 5px;
+    border-style:none;
+    border-top-style: dotted;
+    color: grey;
+    border-width: 5px;
+    width: 5%;
 }
-hr:after {
-    background: #FF5733;
-    content: '§';
-    padding: 0 4px;
-    position: relative;
-    top: -13px;
+
+h1 {
+    font-size: 2rem;
+    color: blue;
+}
+
+h3 {
+	color: blue;
+}
+
+h2 {
+	color: blue;
 }
