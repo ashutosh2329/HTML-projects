@@ -1,0 +1,21 @@
+body{
+	background-color:#FF5733 ;
+}
+
+hr {
+    border: dotted;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: black;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+hr:after {
+    background: #FF5733;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
